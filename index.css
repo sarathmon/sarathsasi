@@ -1,3 +1,123 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #fff;
+    color:#434343; 
+}
+/* Common Styles */
+svg{
+    fill: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+.main-heading {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+.company-container .company {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Play', sans-serif;
+    padding: 8px 0;
+}
+.company-container .project {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Play', sans-serif;
+    padding: 8px 0;
+}
+.company-container .project-desc{
+    padding: 8px 0;
+    line-height: 24px;
+}
+.company-container .roles {
+    padding: 8px 0;
+    font-weight: 600;
+    font-family: 'Play', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 8px 16px;
+    line-height: 24px;
+    list-style-type: disclosure-closed;
+}
+/* Main Info */
+.personal-info-container {
+    background-color: #087ea4;
+}
+
+.personal-info-container .profile-info {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    padding: 16px 16px 12px;
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8px;
+    }
+}
+
+.personal-info-container .profile-info .name{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.personal-info-container .profile-info .role{
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #c7c7c7;
+    padding-left: 16px;
+    font-family: 'Play', sans-serif;
+}
+
+
+.personal-info-container .communication-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px 16px;
+    background-color: #076483;
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.personal-info-container .communication-info span {
+    padding-left: 4px;
+}
+
+.personal-info-container .communication-info .email, .personal-info-container .communication-info .linkedin, .personal-info-container .communication-info .stack-overflow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.personal-info-container .linkedin a, .personal-info-container .stack-overflow a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional-info-container{
+    padding: 8px 16px;
+}
+
+.professional-info-container .details-container{
+    
 }
